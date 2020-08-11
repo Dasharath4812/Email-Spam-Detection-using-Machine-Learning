@@ -18,9 +18,9 @@ The upsurge in the volume of unwanted emails called spam has created an intense 
 # INTRODUCTION
 Emails are important because they creates a fast, reliable form of communication that is free and easily accessible. They allow people to foster long-lasting, long-distance communication . Spam e-mails can be not only annoying but also dangerous to customers.Spam e-mails can be defined as
 
-Anonymity
-Mass-Mailing
-Unsolicited
+- Anonymity
+- Mass-Mailing
+- Unsolicited
 Spam e-mail messages are randomly sent to multiple addresses by all sort of groups , but mainly by lazy advertisers and criminals who wish to lead you to phishing sites.
 
 # How Spam and Normal e-mails look like?
@@ -34,3 +34,14 @@ I have chosen this project because nowadays there are lots of people trying to f
 - Identity Theft.
 - Spam can crash mail servers and fill up hard drive.
 - Billions of dollars lost worldwide.
+
+# OBJECTIVE
+The objective of identification of spam e-mails are :
+
+- To give knowledge to the user about the fake e-mails and relevant e-mails.
+- To classify that mail is spam or not.
+
+# LITERATURE REVIEW
+- I referred the paper S. Sharmin and Z. Zaman, "Spam Detection in Social Media Employing Machine Learning Tool for Text Mining," 2017 13th International Conference on Signal-   Image Technology & Internet-Based Systems (SITIS), Jaipur, 2017, pp. 137-142.
+- Spam prevention is often neglected , although some simple measures can dramatically reduce the amount of spam that reaches your mail box.
+- Before they send you spam , spammers obviously first need to obtain your e-mail address , which they can do through different routes.
