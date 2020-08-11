@@ -1,15 +1,15 @@
 # Email-Spam-Detection-using-Machine-Learning
-Table of Contents
+## Table of Contents
 
-|            TOPICS             |
-| ------------- | ------------- |
-| INTRODUCTION  
+|                   TOPICS                   |
+|--------------------------------------------|
+| INTRODUCTION                               |
 | DIFFERENCE BETWEEN SPAM AND NORMAL E-MAILS |
 | PROBLEM STATEMENT                          |
-| OBJECTIVE  |
-| LITERATURE REVIEW |
-| METHODOLOGY |
-| CONCLUSION |
+| OBJECTIVE                                  |
+| LITERATURE REVIEW                          |
+| METHODOLOGY                                |
+| CONCLUSION                                 |
 
 
 # ABSTRACT
@@ -22,3 +22,15 @@ Anonymity
 Mass-Mailing
 Unsolicited
 Spam e-mail messages are randomly sent to multiple addresses by all sort of groups , but mainly by lazy advertisers and criminals who wish to lead you to phishing sites.
+
+# How Spam and Normal e-mails look like?
+### Spam Email
+### Normal Email
+# PROBLEM STATEMENT
+I have chosen this project because nowadays there are lots of people trying to fool you just by sending you fake e-mails like you have won a 1000 dollars, this much amount is deposited in your account once you open this link and then they will try to hack your information.
+
+- Unwanted emails irritating internet consumers.
+- Critical e-mail messages are missed and/or delayed.
+- Identity Theft.
+- Spam can crash mail servers and fill up hard drive.
+- Billions of dollars lost worldwide.
