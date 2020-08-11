@@ -45,3 +45,11 @@ The objective of identification of spam e-mails are :
 - I referred the paper S. Sharmin and Z. Zaman, "Spam Detection in Social Media Employing Machine Learning Tool for Text Mining," 2017 13th International Conference on Signal-   Image Technology & Internet-Based Systems (SITIS), Jaipur, 2017, pp. 137-142.
 - Spam prevention is often neglected , although some simple measures can dramatically reduce the amount of spam that reaches your mail box.
 - Before they send you spam , spammers obviously first need to obtain your e-mail address , which they can do through different routes.
+
+# METHODOLOGY
+| METHODOLOGY   |  DESCRIPTION  |
+| ------------- | ------------- |
+| Collecting Dataset  | The test data is used to check the accuracy of the model built with the training data. The training data set contains 4137 emails . The test data contains 1035 emails  |
+| Data Preprocessing  | For achieving better results from the applied model in Machine Learning projects the format of the data has to be in a proper manner. STOP WORDS ,CREATING WORD DICTIONARY  |
+| Feature Selection  | Once the dictionary is ready, I can extract word count vector (our feature here) of 3000 dimensions for each email of training set. Each word count vector contains the frequency of 3000 words in the training file.  |
+| Model Construction  | Naive Bayes ,Random Forest , SVM  |
