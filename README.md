@@ -25,7 +25,9 @@ Spam e-mail messages are randomly sent to multiple addresses by all sort of grou
 
 # How Spam and Normal e-mails look like?
 ### Spam Email
+![alt tag](https://user-images.githubusercontent.com/44143809/89970629-df5eb900-dc76-11ea-92a6-260c26c8c500.png)
 ### Normal Email
+![alt tag](https://user-images.githubusercontent.com/44143809/89970719-04ebc280-dc77-11ea-8c5b-d61eb4eba499.png)
 # PROBLEM STATEMENT
 I have chosen this project because nowadays there are lots of people trying to fool you just by sending you fake e-mails like you have won a 1000 dollars, this much amount is deposited in your account once you open this link and then they will try to hack your information.
 
@@ -55,9 +57,10 @@ The objective of identification of spam e-mails are :
 | Model Construction  | Naive Bayes ,Random Forest , SVM  |
 
 # Bag Of Words
-### Ham
 ### Spam
-
+![alt tag](https://user-images.githubusercontent.com/44143809/89994643-097b9f80-dca6-11ea-8fa8-e60213490417.png)
+### Ham
+![alt tag](https://user-images.githubusercontent.com/44143809/89991827-041c5600-dca2-11ea-81e3-e489c2556545.png)
 # STEP BY STEP PROCESS
 ## DATA PREPROCESSING
 The emails in the learning data are in plain text format. I need to convert the plain text into features that can represent the emails. Using these features we can then use a learning algorithm on the emails. A number of pre-processing steps are first performed like normalization , binary data.. convert the plain text files to files with one word per line. In this project, I look at emails just as a collection of words. So, to make it easier I convert each file into a list of words.
@@ -83,18 +86,24 @@ A Naive Bayes classifier is a probabilistic machine learning model that’s used
 ### P(A/B) = P(B/A)P(A)/P(B)
 
 ## Results and Roc Curve
+![alt tag](https://user-images.githubusercontent.com/44143809/89991832-08487380-dca2-11ea-812c-fb353bc93b88.png)
+![alt tag](https://user-images.githubusercontent.com/44143809/89991841-0bdbfa80-dca2-11ea-91f2-42fc8c9f0146.png)
 
 # RANDOM FOREST
 - Random forest is a supervised learning algorithm which is used for both classification as well as regression. But however, it is mainly used for classification problems. As we know that a forest is made up of trees and more trees means more robust forest.
 - Put simply: random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
 - It is an ensemble method which is better than a single decision tree because it reduces the over-fitting by averaging the result.
 ## Results and Roc Curve
+![alt tag](https://user-images.githubusercontent.com/44143809/89991846-0ed6eb00-dca2-11ea-9951-a8a50001ca52.png)
+![alt tag](https://user-images.githubusercontent.com/44143809/89991863-139b9f00-dca2-11ea-8ba9-72289bd2707e.png)
 
 # SUPPORT VECTOR MACHINE
 - Support vector machines (SVMs) are powerful yet flexible supervised machine learning algorithms which are used both for classification and regression. But generally, they are used in classification problems.
 - An SVM model is basically a representation of different classes in a hyperplane in multidimensional space. The hyperplane will be generated in an iterative manner by SVM so that the error can be minimized. The goal of SVM is to divide the datasets into classes to find a maximum marginal hyperplane (MMH).
 - SVM kernel converts non-separable problems into separable problems by adding more dimensions to it. It makes SVM more powerful, flexible and accurate.(Linear,gaussian,polynomial,rbf).
 ## Results and Roc Curve
+![alt tag](https://user-images.githubusercontent.com/44143809/89991876-172f2600-dca2-11ea-8b4b-4a65b5be8d79.png)
+![alt tag](https://user-images.githubusercontent.com/44143809/89991882-1a2a1680-dca2-11ea-95ed-0ff25d960b4a.png)
 
 # CONCLUSION
 - I was able to classify the e-mails are spam or non-spam .With high number of e-mails lots if people using the system it will difficult to handle all possible mails as our project deals with only limited amount of corpus.
